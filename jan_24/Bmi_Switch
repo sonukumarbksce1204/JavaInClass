@@ -1,0 +1,26 @@
+package jan_24;
+import java.util.Scanner;
+public class Bmi_Switch {
+    public static void main(){
+        Scanner input=new Scanner(System.in);
+        int w=input.nextInt();
+        int h=input.nextInt();
+        int bmi=h/w;
+        switch(bmi){
+            case 28:
+                System.out.println("Obese");
+                break;
+            case 18:
+                System.out.println("Fit");
+                break;
+            case 15:
+                System.out.println("Skinny");
+                break;
+            default:
+                System.out.println("Wrong")
+                break;
+            
+        }
+    input.close();
+}
+}
