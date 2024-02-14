@@ -1,4 +1,5 @@
 package feb_12;
+
 public class StringUnique {
     int uniquecheck(String str){
         int f=0;
